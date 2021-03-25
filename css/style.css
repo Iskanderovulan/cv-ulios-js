@@ -117,21 +117,6 @@ h1 {
     font-size: 20px;
 }
 
-.courses__text {
-    transform: perspective(1px) translateZ(0);
-    animation-name: courses__text;
-    animation-duration: 0.3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes courses__text {
-    to {
-        transform: scale(1.1);
-    }
-}
-
 .skills__title {
     text-transform: uppercase;
     font-weight: bold;
@@ -412,6 +397,8 @@ footer {
 .footer__icons a {
     margin-left: 20px;
     font-size: 30px;
+
+
 }
 
 .footer__icons a:first-child {
